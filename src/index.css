@@ -1,2 +1,29 @@
 
 @import "tailwindcss";
+
+
+@theme {
+    --color-primary: #2997FF;
+    --color-light-100: #86868b;
+    --color-light-200: #94928d;
+    --color-dark-100: #afafaf;
+		--color-dark-200: #42424570;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #000;
+  border-color: #3b3b3b;
+  user-select: none;
+}
+
+
