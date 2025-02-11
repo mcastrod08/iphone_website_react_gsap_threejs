@@ -42,7 +42,15 @@
   .hero-title {
     @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
   }
+
+  .btn {
+    @apply rounded-3xl bg-blue-600 my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue-500 hover:border-blue-800
+  }
   
+}
+
+#cta .btn {
+  padding: 5px 10px;
 }
 
 .header {
