@@ -46,6 +46,18 @@
   .btn {
     @apply rounded-3xl bg-blue-600 my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue-500 hover:border-blue-800
   }
+
+  .section-heading {
+    @apply text-black lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
+  }
+
+  .link {
+    @apply text-blue-600 hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+  }
+
+  .video-carousel_container {
+    @apply sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+  }
   
 }
 
@@ -67,6 +79,33 @@
   max-width: 1120px;
 }
 
+.highlights-margin {
+  margin-bottom: 50px;
+}
+
+
 .nav-items {
   padding: 0 10px;
+}
+
+.common-padding {
+  padding: 50px 40px 40px 40px;
+}
+
+.video-carousel_container {
+  position: relative;
+}
+
+.padding-carousel {
+  padding-right: 100px;
+}
+
+.button-highlights-videos {
+  margin-top: 20px;
+  
+}
+
+.button-highlights-videos div {
+  padding: 30px 50px;
+  
 }
