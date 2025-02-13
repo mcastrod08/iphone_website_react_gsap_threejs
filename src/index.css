@@ -59,6 +59,16 @@
     @apply sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
   }
   
+
+  .control-btn {
+    @apply rounded-full bg-gray-500 backdrop-blur
+  }
+  
+}
+
+.control-btn {
+  margin-left: 10px;
+  padding: 24px;
 }
 
 #cta .btn {
@@ -108,4 +118,8 @@
 .button-highlights-videos div {
   padding: 30px 50px;
   
+}
+
+.tiny-btn {
+  margin: 10px 10px;
 }
