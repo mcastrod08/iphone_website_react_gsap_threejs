@@ -48,7 +48,7 @@
   }
 
   .section-heading {
-    @apply text-black lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
+    @apply text-white lg:text-5xl md:text-3xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
   }
 
   .link {
@@ -64,6 +64,13 @@
     @apply rounded-full bg-gray-500 backdrop-blur
   }
   
+  .color-container {
+    @apply flex items-center justify-center rounded-full bg-gray-500 backdrop-blur
+  }
+}
+
+.color-container {
+  padding: 15px 20px;
 }
 
 .control-btn {
