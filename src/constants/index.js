@@ -72,3 +72,9 @@ export const models = [
     img: blackImg,
   },
 ];
+
+
+export const sizes = [
+  { label: '6.1"', value: "small" },
+  { label: '6.7"', value: "large" },
+];
