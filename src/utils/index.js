@@ -23,6 +23,8 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
+import exploremv from "/assets/videos/explore.mp4";
+
 
 export const appleImg = apple;
 export const searchImg = search;
@@ -48,3 +50,5 @@ export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
 export const frameImg = frame;
+
+export const exploreVideo = exploremv;
