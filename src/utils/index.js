@@ -24,6 +24,7 @@ import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
 import exploremv from "/assets/videos/explore.mp4";
+import framemv from "/assets/videos/frame.mp4";
 
 
 export const appleImg = apple;
@@ -52,3 +53,4 @@ export const chipImg = chip;
 export const frameImg = frame;
 
 export const exploreVideo = exploremv;
+export const frameVideo = framemv;

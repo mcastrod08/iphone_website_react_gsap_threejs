@@ -92,6 +92,30 @@
     @apply w-full flex items-center justify-center flex-col md:flex-row mt-10 md:mt-16 gap-5
   }
 
+  .how-text-container {
+    @apply flex md:flex-row flex-col justify-between items-start gap-24
+  }
+
+  .howitworks-text {
+    @apply text-gray-400 text-lg font-semibold 
+  }
+
+  .how-video {
+    @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden
+  }
+
+  .g_fadeIn {
+    @apply translate-y-[100px]
+  }
+
+  .how-text {
+    @apply text-gray-500 text-xl font-normal md:font-semibold
+  }
+
+  .how-bigtext {
+    @apply text-white text-3xl md:text-5xl font-normal md:font-semibold my-2
+  }
+
 }
 
 .color-container {
