@@ -26,6 +26,7 @@ import frame from "/assets/images/frame.png";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
 
+import signature from "/assets/images/signature.png";
 
 export const appleImg = apple;
 export const searchImg = search;
@@ -54,3 +55,5 @@ export const frameImg = frame;
 
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
+
+export const signatureImg = signature;
